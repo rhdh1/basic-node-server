@@ -1,0 +1,23 @@
+{
+  "name": "basic-node-server",
+  "version": "1.0.0",
+  "description": "Serve simple values for testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhdh1/basic-node-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhdh1/basic-node-server/issues"
+  },
+  "homepage": "https://github.com/rhdh1/basic-node-server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
