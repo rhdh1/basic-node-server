@@ -1,7 +1,16 @@
 const express = require('express');
+var cors = require('cors');
 const app = express();
 
-app.get('/colors', (req, res) => {
+const domains = (process.env.DOMAINS || '').split(' ');
+const corsOptions = {
+  origin: domains,
+  optionsSuccessStatus: 200,
+};
+
+console.log('corsOptions: ', corsOptions);
+
+app.get('/colors', cors(corsOptions), (req, res) => {
   res.json([
     {
       'value': 'red'
@@ -15,7 +24,7 @@ app.get('/colors', (req, res) => {
   ]);
 });
 
-app.get('/fruits', (req, res) => {
+app.get('/fruits', cors(corsOptions), (req, res) => {
   res.json([
     {
       'type': 'apple',
@@ -32,7 +41,7 @@ app.get('/fruits', (req, res) => {
   ]);
 });
 
-app.get('/gc1', (req, res) => {
+app.get('/gc1', cors(corsOptions), (req, res) => {
   res.json([
     {
       name: 'apple',
