@@ -52,7 +52,7 @@ app.get('/gc1', cors(corsOptions), (req, res) => {
       activeImage: 'https://images.all-free-download.com/images/graphiclarge/green_apples_on_tree_193815.jpg',
       activeWidth: 100,
       activeHeight: 100,
-      labelPosition: 'Left'
+      labelPosition: 'left'
     },
     {
       name: 'banana',
@@ -63,7 +63,7 @@ app.get('/gc1', cors(corsOptions), (req, res) => {
       activeImage: 'http://1.bp.blogspot.com/-raga2ntcSig/UGCJMMj9TPI/AAAAAAAABMg/pObHyV3WFPU/s1600/banana_ripening_chart.jpeg',
       activeWidth: 100,
       activeHeight: 100,
-      labelPosition: 'Top'
+      labelPosition: 'top'
     },
     {
       name: 'blueberry',
@@ -74,7 +74,7 @@ app.get('/gc1', cors(corsOptions), (req, res) => {
       activeImage: 'https://i.pinimg.com/originals/89/80/54/898054af54e2413bf7d22962c506fa10.jpg',
       activeWidth: 100,
       activeHeight: 100,
-      labelPosition: 'None'
+      labelPosition: 'none'
     }
   ]);
 });
