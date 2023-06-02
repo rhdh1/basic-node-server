@@ -63,7 +63,7 @@ app.get('/gc1', cors(corsOptions), (req, res) => {
       activeImage: 'http://1.bp.blogspot.com/-raga2ntcSig/UGCJMMj9TPI/AAAAAAAABMg/pObHyV3WFPU/s1600/banana_ripening_chart.jpeg',
       activeWidth: 100,
       activeHeight: 100,
-      labelPosition: 'top'
+      labelPosition: 'TOP'
     },
     {
       name: 'blueberry',
